@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="Portfolio-container">
+            <div class="Portfolio-row header-wrap">
+                <div class="brand-name">
+                    <a href="#" class="logo">Rohit Kumar</a>
+                </div>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="portfolio-navbar">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                         <li>
+                            <a href="#">Resume</a>
+                        </li> 
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="slide-carousel">
+        <div class="slider">
+            <div class="portfolio-container">
+                <div class="slider-content">
+                    <div class="slider-general">
+                        <span class="wlcome-msg">
+                            welcome helloo world
+                        </span>
+                        <div class="welcome-text">
+                            <h1>
+                                Hi i am 
+                            </h1>
+                            <div class="text-wrap">
+                                <h2 class="main-title">Roit Kumar</h2>
+                                <h2 class="hover-title">Rohit Kumar</h2>
+                            </div>
+                            <p>
+                                lohfgyufjgfdgfdgfkdgidgghflkufoiy          iudygg.fuiadsga ngdygfdshfifgdsnabfkafhkgyFJDBGK BHUHGUADG
+                            </p>
+                            <div class="download-resume">
+                                <a href="Rohit-Kumar-cv.pdf" target="_blank">
+                                    Download CV
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-image">
+                        <div class="welcome-image">
+                            <img src="image/image.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Contact">
+        <div class="portfolio-container">
+            <div class="text-wrap">
+                <h2 class="main-title">Stay Connected</h2>
+                <h2 class="hover-title">Stay Connected</h2>
+            </div>
+            <div class="contact-info">
+                <span>
+                    Mandi Himachal Pradesh India
+                </span>
+                <h3>rohitkashyap221825@gmail.com</h3>
+                <a href="#">
+                    +91- 9816518118
+                </a>
+            </div>
+            <div class="social-link">
+                <ul>
+                    <li>
+                        <a href="#">Linked in</a>
+                    </li>
+                    <li>
+                        <a href="#">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        hamburger.addEventListener("click",function(){
+            document.querySelector(".portfolio-navbar").classList.toggle("show");
+        })
+    </script>
+</body>
+</html>
+
